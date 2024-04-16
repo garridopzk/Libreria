@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/menu"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingContraints" />
+    <ImageButton
+        android:id="@+id/cienciaficcion"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="120dp"
+        android:background="@drawable/ficcion"/>
+
+    <ImageButton
+        android:id="@+id/Narravito"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="120dp"
+        android:background="@drawable/genero"/>
+    <ImageButton
+        android:id="@+id/terror"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="120dp"
+        android:background="@drawable/miedo"/>
+    <TextView
+        android:id="@+id/opcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generos"
+        android:textSize="24sp"
+        android:textColor="#FF9800"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="160dp"/>
+
+</RelativeLayout>
