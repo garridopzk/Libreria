@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = editTextPassword.getText().toString();
 
                 if (user.equals("niki") && password.equals("garrido")) {
-                    Intent intent = new Intent(v.getContext(), MainActivity2.class);
+                    Intent intent = new Intent(v.getContext(), MainActivity3.class);
                     startActivity(intent);
                 } else {
 
@@ -43,7 +43,13 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-
+        Button Registrar = findViewById(R.id.registrar);
+        Registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 }
