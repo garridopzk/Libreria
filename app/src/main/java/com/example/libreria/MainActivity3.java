@@ -38,14 +38,14 @@ public class MainActivity3 extends AppCompatActivity {
         Narrativo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
+                Intent intent = new Intent(MainActivity3.this, MainActivity5.class);
                 startActivity(intent);
             }
         });
         terror.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity3.this, MainActivity4.class);
+                Intent intent =new Intent(MainActivity3.this, MainActivity3.class);
                 startActivity(intent);
             }
         });
